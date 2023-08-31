@@ -35,19 +35,33 @@ print("B appears:", result, "times")
 
 # TASK 5
 ## Option 1
-
-## Option 2
 text = "Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau."
 print("Last ten characters:", text[-10:])
+## Option 2
+text = "Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau."
+print(f"Last ten characters: {text[-10:]}")
 
 # TASK 6
 ## Option 1
-
+text = "---Python programming---"
+print(text.strip("-"))
 ## Option 2
-
-
+text = "---Python programming---"
+print(text.replace("-", " "))
+## Option 3
+text = "---Python programming---"
+print(text.lstrip("-").rstrip("-"))
 
 # TASK 7
+## Option 1
+first_name = "Mary"
+last_name = "Mat"
+print(f"Firstname: {first_name}\nLastname: {last_name}")
+## Option 2
+first_name = "Mary"
+last_name = "Mat"
+print("Firstname: " + first_name + "n\ Lastname: ", last_name)
+## Option 3
 first_name = "Mary"
 last_name = "Mat"
 print("Firstname:", first_name)
